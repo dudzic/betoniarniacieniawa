@@ -1,0 +1,28 @@
+{
+  "name": "betoniarniacieniawa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "overrideBrowserslist": [
+          "> 1%",
+          "last 4 versions",
+          "ie >= 9"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.6.0"
+  }
+}

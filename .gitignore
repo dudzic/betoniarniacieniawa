@@ -1,0 +1,11 @@
+wp-config.php
+wp-content/uploads
+wp-content/themes/twenty*
+.cache
+build
+node_modules
+.DS_Store
+.babelrc
+*.code-workspace
+vendor/
+composer.lock
