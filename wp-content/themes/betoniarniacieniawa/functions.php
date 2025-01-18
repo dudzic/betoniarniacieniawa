@@ -4,7 +4,7 @@ require get_theme_file_path('/includes/register-styles.php');
 require get_theme_file_path('/includes/register-scripts.php');
 // require get_theme_file_path('/includes/register-areas.php');
 require get_theme_file_path('/includes/custom-functions.php');
-require get_theme_file_path('/includes/custom-post-type.php');
+// require get_theme_file_path('/includes/custom-post-type.php');
 
 
 

@@ -52,7 +52,7 @@
  * -----------------------------------------------------------------------------
  */
 
-@import './components/custom-icon-font.scss';
+// @import './components/custom-icon-font.scss';
 
 @import './components/variable.scss';
 
@@ -69,3 +69,7 @@
 @import './components/footer.scss';
 
 @import './components/responsive.scss';
+
+a.btn-primary {
+  color: #fff !important;
+}

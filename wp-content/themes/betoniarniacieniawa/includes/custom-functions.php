@@ -33,8 +33,6 @@ add_action('init', 'pagination');
 //Options Page
 if(function_exists('acf_add_options_page')) 
 {
-	// acf_add_options_page();
-// 	acf_add_options_sub_page('Stopka');
-// 	acf_add_options_sub_page('Social media');
-// 	acf_add_options_sub_page('Dane-pasek górny');
+	acf_add_options_page();
+	// acf_add_options_sub_page('Top menu');
 }
