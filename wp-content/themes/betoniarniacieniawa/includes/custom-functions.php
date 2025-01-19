@@ -36,6 +36,7 @@ if(function_exists('acf_add_options_page'))
 	acf_add_options_page();
 	acf_add_options_sub_page('Top menu');
 	acf_add_options_sub_page('Header Main Page');
+	acf_add_options_sub_page('About Us');
 	acf_add_options_sub_page('Footer-banner');
 	acf_add_options_sub_page('Footer');
 }
