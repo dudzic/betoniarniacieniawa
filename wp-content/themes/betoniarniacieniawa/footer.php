@@ -1,10 +1,10 @@
 <footer>
 
-  <?php get_template_part('/includes/section', 'footer'); ?>
+  <?php get_template_part('./parts/section', 'footer-banner'); ?>
+  <?php get_template_part('./parts/section', 'footer'); ?>
 
+  <?php wp_footer(); ?>
 </footer>
-
-<?php wp_footer(); ?>
 </body>
 
 </html>
