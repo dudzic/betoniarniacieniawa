@@ -34,15 +34,25 @@
         <div class="col-9 col-md-9">
           <div class="contact-info">
 
+            <?php
+              $contact_details = get_field('dane_kontaktowe', 'option');
+              if($contact_details):
+                foreach($contact_details as $contact):
+            ?>
+
             <div class="rs-icon-1">
               <div class="icon">
-                <div class="fas fa-envelope"></div>
+                <img src="<?php echo $contact['dane_kontaktowe_ikona']['url']; ?>"
+                  alt="<?php echo $contact['dane_kontaktowe_ikona']['title']; ?>">
               </div>
               <div class="body-content">
-                <div class="heading">Email Support :</div>
-                info@subsco.com
+                <div><?php echo esc_html($contact['dane_kontaktowe_naglowek']); ?></div>
+                <?php echo esc_html($contact['dane_kontaktowe_tresc']); ?>
               </div>
             </div>
+
+            <?php endforeach; ?>
+            <?php endif;?>
 
           </div>
         </div>

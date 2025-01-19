@@ -34,5 +34,6 @@ add_action('init', 'pagination');
 if(function_exists('acf_add_options_page')) 
 {
 	acf_add_options_page();
-	// acf_add_options_sub_page('Top menu');
+	acf_add_options_sub_page('Top menu');
+	acf_add_options_sub_page('Header Main Page');
 }

@@ -17,4 +17,4 @@
 
 <body <?php body_class(); ?> data-spy="scroll" data-target="#navbar-example">
 
-  <?php get_template_part('./parts/section', 'header'); ?>
+  <?php get_template_part('./parts/section', 'menu'); ?>
