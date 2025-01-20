@@ -102,3 +102,32 @@ div.img-subsco::before {
 .main-offer-link:hover {
   border-bottom: 2px solid #000;
 }
+
+// MAP
+div.contact-map {
+  margin-top: 80px;
+}
+
+section.map > iframe {
+  width: 100%;
+  height: 500px;
+}
+
+div.map-description {
+  padding: 20px 0;
+}
+
+// FORM
+div.contact-data {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+span.form-label {
+  font-size: 0.875rem;
+}
+
+// BANNER PAGE
+.banner-page .content-wrap {
+  padding: 160px 0 120px 0;
+}
