@@ -6,7 +6,7 @@
   $contact_data = get_field('kontakt_dane');
 ?>
 
-<?php get_template_part('./parts/section', 'site-header'); ?>
+<?php get_template_part('./parts/section', 'page-header'); ?>
 
 <div class="container">
 
