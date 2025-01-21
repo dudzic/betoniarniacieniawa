@@ -25,7 +25,7 @@
               <?php if($about_us_title) echo esc_html($about_us_title); ?>
 
             </h3>
-            <p>
+            <p class="pt-3 pb-4">
 
               <?php if($about_us_content) echo esc_html($about_us_content); ?>
 

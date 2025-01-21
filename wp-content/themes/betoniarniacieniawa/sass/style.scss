@@ -132,9 +132,39 @@ span.form-label {
   padding: 160px 0 120px 0;
 }
 
-// ABOUT-US-MANAGEMENT
+// ABOUT-US
 div.about-us-management-container {
   border-bottom: 1px solid #cfcfcf;
   margin-bottom: 80px;
   padding-bottom: 50px;
+}
+
+section.about-us-banner h2 {
+  font-size: 4.5rem;
+}
+
+@media (max-width: 767px) {
+  section.about-us-banner h2 {
+    font-size: 3rem;
+  }
+}
+
+div.about-us-partners-wrapper {
+  position: relative;
+}
+
+h6.about-us-partners-label {
+  position: absolute;
+  padding-right: 20px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+div.about-us-partners-line {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: $color-primary;
 }
